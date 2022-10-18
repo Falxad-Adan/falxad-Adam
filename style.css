@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    justify-content: space-between;
+    display: flex;
+}
+.header h5{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+ul li{
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 2px 15px;
+    display: inline-block;
+
+}
+ul li a{
+    margin-right:70px;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.icon{
+    margin-right: 70px;
+}
+.for{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.for h1{
+    text-align: left;
+    font-size: 80px;
+    font-weight: bold;
+}
+.for p{
+    margin-top: 20px;
+    font-size: 30px;
+}
+span{
+    color: black;
+    text-decoration: underline;
+}
+.dev{
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+}
+.button1 button{
+    font-size: 20px;
+    background-color: rgb(60, 60, 143);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+}
+.button2 button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.button3 button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.rent{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 16px;
+    justify-content: center;
+}
+.list h1{
+    padding-top: 90px;
+    font-size: 50px;
+    text-align: center;
+}
+.list{
+    text-align: center;
+    height: 250px;
+    width: 360px;
+    background-color: rgb(56, 61, 90);
+}
+.part1 h1{
+    color: rgb(247, 223, 8);
+}
+.part2 .list{
+    background-color: blue;
+    color: white;
+}
+.part3 .list{
+    background-color: rgb(255, 208, 1);
+    color: rgb(7, 7, 7);
+}
+.part4 .list h1{
+font-size: 40px;
+}
+.part4 .list{
+    background-color: rgb(255, 39, 1);
+    color: rgb(252, 252, 252);
+}
+.part5 .list{
+    background-color: rgb(20, 22, 46);
+    color:white;
+}
+.part6 .list{
+    background-color: rgb(239, 240, 252);
+    color:black;
+}
+
+h1{
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+.yes{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.yes h2{
+ font-size: 40px;
+}
+.yes p{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    gap: 16px;
+    justify-content: center;
+}
+.grid1{
+    margin-top: 20px;
+}
+.grid1 img{
+    width: 500px;
+    height: 390px;
+}
+.grid2{
+    margin-left: 30px;
+    margin-top: 90px;
+}
+.grid2 img{
+    width: 400px;
+    height: 390px;
+}
+.grid3{
+    margin-top: 20px;
+}
+.grid3 img{
+    width: 400px;
+    height: 290px;
+}
+.grid4{
+    margin-left: 30px;
+    margin-top: 90px;
+}
+.grid4 img{
+    width: 400px;
+    height: 390px;
+}
+.grid5{
+    margin-top: 10px;
+}
+.grid5 img{
+    width: 400px;
+    height: 290px;
+}
+.grid6{
+    margin-left: 30px;
+    margin-top: 90px;
+}
+.grid6 img{
+    width: 400px;
+    height: 390px;
+}
+.grid7{
+    margin-top: 0px;
+}
+.grid7 img{
+    width: 400px;
+    height: 290px;
+}
+.grid8{
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.grid8 img{
+    width: 400px;
+    height: 290px;
+}
+.grid9{
+    margin-bottom: 70px;
+}
+.grid9 img{
+    width: 400px;
+    height: 290px;
+}
+.info{ 
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 200px 100px;
+    gap: 106px;
+    background-color: rgb(1, 1, 44);
+    justify-content: center;
+}
+.info h1{
+    font-size: 20px;
+    color: white;
+}
+.info p{
+    margin-top: 70px;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+footer{
+    background: #a0a0be;
+    padding: 60px 60px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px ;
+    justify-content:space-between;
+    gap: 16px;
+}
+
+.tag h1{
+    color: rgb(10, 10, 10);
+    margin: 20px 0 30px 0;
+}
+
+.tag p{
+    text-align: left;
+    margin: 10px 0;
+    cursor: pointer;
+    color: #0e0d0d;
+    font-size: 19px;
+}
+
+.tag i{
+    margin: 0 15px;
+}
+
+.tag ul{
+    list-style: none;
+    color: #080808;
+}
+
+
+.tag ul li{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tag ul li:hover{
+    color: rgb(3, 3, 3);
+}
+
+@media screen and (max-width:600px){
+    .header{
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    ul li a{
+        font-size: 10px;
+        flex-direction: row;
+    }
+    .header{
+        margin-top: 8px;
+      flex-direction: column;
+    }
+    h5{
+        text-align: center;
+    }
+    .icon{
+        display: none;
+    }
+    .for h1{
+        font-size: 10px;
+        width: 100%;
+    }
+    .for p{
+        font-size: 10px;
+        width: 100%;
+    }
+    .rent{
+    grid-template-columns: 300px ;
+    width: 100%;
+    }
+    .grid{
+        grid-template-columns: 300px ;
+        width: 100%;
+        }
+       .main{
+        grid-template-columns: 300px ;
+        width: 100%;
+       }
+}
+
+
+
+
+    
